@@ -1,25 +1,24 @@
-.carousel-wrapper {
-    margin: 20px auto;
-    position: relative;
-  
-   
+*{
+	margin: 0;
+	padding: 0;
 }
-
-.carousel {
-    position: relative;
-    overflow: hidden;
+#slider {
     width: 400px;
-    height: 400px;
+   	height: 400px;
+   	overflow: hidden;
 }
 
-.carousel ul {
-    width: 20000em;
-    position: relative;
-    list-style: none;
+#slider .slides {
+	display: block;
+    width: 2000px;
+    height: 400px;
     margin: 0;
     padding: 0;
 }
 
-.carousel li {
-    float: left;
+#slider .slide{
+	float: left;
+	list-style-type: none;
+	width: 400px;
+	height: 400px;
 }
