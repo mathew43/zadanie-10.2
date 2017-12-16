@@ -2,23 +2,24 @@
 	margin: 0;
 	padding: 0;
 }
+
 #slider {
     width: 400px;
-   	height: 400px;
-   	overflow: hidden;
+    height: 400px;
+    overflow: hidden;
 }
 
 #slider .slides {
-	display: block;
+    display: block;
     width: 2000px;
     height: 400px;
     margin: 0;
     padding: 0;
 }
 
-#slider .slide{
-	float: left;
-	list-style-type: none;
-	width: 400px;
-	height: 400px;
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 400px;
+    height: 400px;
 }
